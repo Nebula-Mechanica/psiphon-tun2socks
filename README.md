@@ -8,6 +8,8 @@ Also you should know, that ICMP will NOT work. So pings will fail, don't rely on
 
 ## Preparations
 
+First copy 3rd-party/tun2socks-psiphon.exe to the same directory as psiphon-tun2socks.ps1. This executable is taken from official badvpn win32 binaries, you could build it by yourself if you want to.
+
 To make this script work, we need to get tunnel interface. Simplest way is to install OpenVPN and find where it's installed (usually C:\Program Files\OpenVPN\bin) then you to execute following command from there:
 
 `.\tapctl.exe create --name PsiphonVPN --hwid tap0901`
