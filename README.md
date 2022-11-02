@@ -8,7 +8,7 @@ Also you should know, that ICMP will NOT work. So pings will fail, don't rely on
 
 ## Preparations
 
-First copy 3rd-party/tun2socks-psiphon.exe to the same directory as psiphon-tun2socks.ps1. This executable is taken from official badvpn win32 binaries, you could build it by yourself if you want to.
+First copy `3rd-party/tun2socks-psiphon.exe` to the same directory as `psiphon-tun2socks.ps1`. This executable (originally `badvpn-tun2socks.exe`) is taken from official badvpn win32 binaries, you could build it by yourself if you want to.
 
 To make this script work, we need to get tunnel interface. Simplest way is to install OpenVPN and find where it's installed (usually C:\Program Files\OpenVPN\bin) then you to execute following command from there:
 
@@ -20,11 +20,11 @@ Also you have to go to Psiphon settings and force port 12832 for SOCKS. Also you
 
 ## How to use
 
-Simply launch Psiphon, connect to server and launch psiphon-tun2socks.ps1. To exit you have to press Enter in command line window.
+Simply launch Psiphon, connect to server and launch `psiphon-tun2socks.ps1`. To exit you have to press Enter in command line window.
 
 ## How it works
 
-1. Tunnel interface will be bound to Psiphon local SOCKS proxy.
+1. Tunnel interface is bound to Psiphon local SOCKS proxy.
 
 2. Then we determine our local gateway.
 
