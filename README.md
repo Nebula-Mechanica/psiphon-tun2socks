@@ -39,3 +39,5 @@ Simply launch Psiphon, connect to server and launch `psiphon-tun2socks.ps1`. To 
 7. If fail, remove default route and retry from step 4. Failure could mean that our Psiphon address have changed.
 
 8. If pressed Enter, cleanup and exit.
+
+**If it doesn't work, consider changing region and waiting for reconnect**
